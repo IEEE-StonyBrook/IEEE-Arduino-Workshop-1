@@ -1,0 +1,1 @@
+In this workshop, we first ran a short program to blink the Arduino's onboard LED.  Following this we attached a separate LED across pin 12 and the ground and blinked it. Lastly, we used a breadboard to wire a switch on pin 8 to control whether or not the LED was turned on or not, which is the current state of the code.
