@@ -1,8 +1,8 @@
 /*
-int ledPin = 13; 
+int ledPin = 13; // Onboard LED;
 
-void setup(){
-  //initialize pins at outputs 
+void setup(){ // Setup runs first, but once, then loop loops until operation ends.
+  //initialize output pin
   pinMode(ledPin,OUTPUT); 
 }
 
@@ -14,11 +14,11 @@ void loop(){
 }
 */
 
-int ledPin = 12; 
-int switchPin = 8; 
+int ledPin = 12;  // Discrete LED;
+int switchPin = 8; // Switch connected to here and to gnd.
 void setup(){
  pinMode (ledPin, OUTPUT); 
- pinMode (switchPin, INPUT); 
+ pinMode (switchPin, INPUT);
 }
 
 void loop(){
